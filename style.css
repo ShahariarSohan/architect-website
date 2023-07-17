@@ -217,6 +217,27 @@ main {
     font-size: 2.5rem;
     font-weight: 600;
 }
+/* footer section */
+.title-sponsors{
+    text-align: center;
+}
+/* footer section styles */
+footer{
+    margin:100px 0;
+    text-align:center;
+}
+.sponsors-container{
+    margin:100px 0;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.copy-rights{
+    padding:30px;
+     background: rgba(255, 144, 14, 0.10); ;
+}
+
+
 
 
 
@@ -226,7 +247,7 @@ main {
 @media screen and (max-width:576px) {
     .nav-container {
         padding: 20px;
-        flex-direction: column;
+        flex-direction:column;
     }
     ul li {
         padding: 10px;
@@ -347,5 +368,5 @@ main {
     .facts-box-container{
         gap:20px;
     }
-
+  
 }
