@@ -333,7 +333,12 @@ main {
         position: static;
         margin: 20px auto;
     }
-
+    .facts-heading{
+        text-align: center;
+    }
+    .facts-description {
+        margin:auto;   
+    }
     .feature-card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
