@@ -145,7 +145,10 @@ main {
 .feature-title {
     font-size: 2.8rem;
     font-weight: 700;
-    margin-left: 50px;
+    padding-left:50px;
+    border-left: 5px solid #FF900E;
+    
+    
 }
 
 .card {
@@ -213,6 +216,7 @@ main {
 
     .team-img-container {
         grid-template-columns: 1fr;
+        
     }
 
     .team-content {
@@ -220,7 +224,7 @@ main {
         margin: auto;
     }
     .feature-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap:20px;
     }
     .architect-img{
@@ -251,9 +255,28 @@ main {
         margin: 50px 0;
 
     }
-
     .team-container {
         flex-direction: column;
     }
-    
+    .feature-container{
+        flex-direction: column-reverse;
+    }
+    .architect-logo-container{
+        text-align:center;
+    }
+    .architect-img{
+        width:70%;
+        height:auto;
+    }
+    .ten-years {
+        width:50%;
+        position: static;
+        margin:auto;
+    }
+    .feature-card-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    }
+
 }
