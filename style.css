@@ -225,7 +225,6 @@ main {
         flex-direction: column;
     }
     ul li {
-        list-style: none;
         padding: 10px;
     }
     .banner-container {
@@ -281,7 +280,9 @@ main {
     .banner-title {
         padding: 50px 60px;
     }
-
+    ul li {
+        padding: 10px;
+    }
     .banner-container {
         width: 100%;
         margin: 0;
@@ -312,7 +313,7 @@ main {
     .ten-years {
         width: 50%;
         position: static;
-        margin: auto;
+        margin: 20px auto;
     }
 
     .feature-card-container {
