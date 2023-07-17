@@ -75,7 +75,7 @@ li a {
 
 .banner-title {
     color: #131313;
-    font-size: 3.6rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 
@@ -145,10 +145,8 @@ main {
 .feature-title {
     font-size: 2.8rem;
     font-weight: 700;
-    padding-left:50px;
+    padding-left: 50px;
     border-left: 5px solid #FF900E;
-    
-    
 }
 
 .card {
@@ -161,32 +159,60 @@ main {
 
 .architect-img {
     width: 500px;
-    height:800px;
+    height: 800px;
     border-radius: 8px;
 }
+
 .ten-years {
-    color:#FFF;
+    color: #FFF;
     text-align: center;
     width: 250px;
     border-radius: 4px;
     background: #FF900E;
     position: relative;
-    margin-top: -50px ;
-    margin-left:-70px;
+    margin-top: -50px;
+    margin-left: -70px;
 }
 
 .title-ten-year {
     font-size: 3rem;
     font-weight: 700;
-    padding:30px 30px 0 30px;
+    padding: 30px 30px 0 30px;
 }
 
 .text-ten-year {
     font-weight: 500;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
+/* facts section styles */
+.facts-container {
+    margin: 100px 0;
+}
 
+.facts-text {
+    margin-right: 650px;
+}
+
+.facts-box-container {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facts-box {
+    text-align: center;
+}
+.facts-icon{
+    padding-top:20px;
+}
+.facts-title {
+    color: #424242;
+    font-size: 2.5rem;
+    font-weight: 600;
+    
+}
 
 
 
@@ -198,7 +224,10 @@ main {
         padding: 20px;
         flex-direction: column;
     }
-
+    ul li {
+        list-style: none;
+        padding: 10px;
+    }
     .banner-container {
         width: 100%;
         margin: 0;
@@ -208,6 +237,7 @@ main {
         margin: 0;
 
     }
+
     .team-container {
         width: 100%;
         margin: 50px auto;
@@ -216,25 +246,31 @@ main {
 
     .team-img-container {
         grid-template-columns: 1fr;
-        
+
     }
 
     .team-content {
         width: 80%;
         margin: auto;
     }
-    .feature-container{
+
+    .feature-container {
         flex-direction: column-reverse;
-        gap:20px;
+        gap: 20px;
     }
-    .architect-img{
-        width:100%;
-        height:auto;
+    .architect-logo-container{
+        text-align:center;
     }
+    .architect-img {
+        width: 80%;
+        height: auto;
+        margin:auto;
+    }
+
     .ten-years {
-        width:100%;
+        width: 80%;
         position: static;
-        margin:20px 0;
+        margin: 20px auto;
     }
 
 }
@@ -255,28 +291,34 @@ main {
         margin: 50px 0;
 
     }
+
     .team-container {
         flex-direction: column;
     }
-    .feature-container{
+
+    .feature-container {
         flex-direction: column-reverse;
     }
-    .architect-logo-container{
-        text-align:center;
+
+    .architect-logo-container {
+        text-align: center;
     }
-    .architect-img{
-        width:70%;
-        height:auto;
+
+    .architect-img {
+        width: 70%;
+        height: auto;
     }
+
     .ten-years {
-        width:50%;
+        width: 50%;
         position: static;
-        margin:auto;
+        margin: auto;
     }
-    .feature-card-container{
-        display:grid;
-        grid-template-columns: repeat(2,1fr);
-        gap:20px;
+
+    .feature-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
 }
