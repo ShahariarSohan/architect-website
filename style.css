@@ -63,14 +63,24 @@ li a {
 }
 
 /* banner styles */
-.banner-content {
-    padding-top:50px;
-    text-align: center;
-    margin: 0px 400px;
+.banner-container{
+    margin:50px 0;
 }
-
+.banner-content {
+    text-align: center;
+    margin: 50px 400px;
+}
 .banner-title {
     color: #131313;
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: 700;
+}
+.banner-logo-container{
+    width:75%;
+    margin:auto;
+   
+}
+.banner-logo{
+  width:100%;
+  border-radius: 8px;
 }
