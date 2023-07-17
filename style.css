@@ -315,6 +315,9 @@ footer{
         flex-direction:column;
         gap:20px;
     }
+    .copy-rights-text{
+        width:100%;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -330,29 +333,23 @@ footer{
         width: 100%;
         margin: 0;
     }
-
     .banner-content {
         margin: 50px 0;
 
     }
-
     .team-container {
         flex-direction: column;
     }
-
     .feature-container {
         flex-direction: column-reverse;
     }
-
     .architect-logo-container {
         text-align: center;
     }
-
     .architect-img {
         width: 70%;
         height: auto;
     }
-
     .ten-years {
         width: 50%;
         position: static;
@@ -372,5 +369,9 @@ footer{
     .facts-box-container{
         gap:20px;
     }
-  
+    .sponsors-container{
+        margin:30px 0;
+        flex-direction:column;
+        gap:20px;
+    }
 }
