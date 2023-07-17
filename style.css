@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;700;800&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', 'sans-serif';
+}
+
+/* shared styles */
+.title-primary {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* header styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+/* nav styles */
+.nav-container {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+li a {
+    color:  #424242;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+    
