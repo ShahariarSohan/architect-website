@@ -190,7 +190,7 @@ main {
     margin: 100px 0;
 }
 
-.facts-text {
+.facts-description {
     margin-right: 650px;
 }
 
@@ -203,22 +203,26 @@ main {
 
 .facts-box {
     text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E
 }
 .facts-icon{
-    padding-top:20px;
+    padding:40px 40px 0 40px;
+}
+.facts-text{
+    padding:0 40px 40px 40px;
 }
 .facts-title {
     color: #424242;
     font-size: 2.5rem;
     font-weight: 600;
-    
 }
 
 
 
 
 
-
+/* media query section */
 @media screen and (max-width:576px) {
     .nav-container {
         padding: 20px;
@@ -271,6 +275,20 @@ main {
         position: static;
         margin: 20px auto;
     }
+    .facts-container{
+        margin:20px;
+    }
+    .facts-description {
+        margin:0;
+    }
+    .facts-box-container{
+        flex-direction: column;
+        gap:20px;
+    }
+    .facts-box{
+        width:80%;
+        margin:auto;
+    }
 
 }
 
@@ -320,6 +338,9 @@ main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+    .facts-box-container{
+        gap:20px;
     }
 
 }
