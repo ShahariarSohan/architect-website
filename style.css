@@ -38,9 +38,9 @@ header {
 
 }
 
-/* nav styles */
+/* nav section styles */
 .nav-container {
-    padding: 50px 200px;
+    padding: 50px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,7 @@ li a {
     cursor: pointer;
 }
 
-/* banner styles */
+/* banner section styles */
 .banner-container {
     padding: 50px 0;
 }
@@ -80,7 +80,7 @@ li a {
 }
 
 .banner-logo-container {
-    width: 80%;
+    width: 90%;
     margin: 40px auto;
 }
 
@@ -89,20 +89,20 @@ li a {
     border-radius: 8px;
 }
 
-/* main section */
+/* main  styles*/
 main {
     max-width: 90%;
     margin: auto;
 }
 
-/* team section */
+/* team section styles*/
 .team-container {
-    width:80%;
+    width: 90%;
     margin: 50px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 70px;
+    gap: 100px;
 }
 
 .team-img-container {
@@ -116,19 +116,44 @@ main {
     height: 200px;
     border-radius: 8px;
 }
-.team-content{
-    margin-right:80px;
+
+.team-content {
+    margin-right: 80px;
 }
-.team-title{
-    margin-right:0px;
+
+.team-title {
+    margin-right: 0px;
 }
+
 .quick-list {
     color: #727272;
     font-size: 2.8rem;
     font-weight: 500;
 }
-.feature-text{ 
-   color: #FF900E;
+
+.feature-text {
+    color: #FF900E;
+}
+
+/* feature section styles */
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.card {
+    padding:30px;
+    margin-bottom:20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
 
@@ -145,27 +170,30 @@ main {
         padding: 20px;
         flex-direction: column;
     }
-   
+
     .banner-container {
         width: 100%;
         margin: 0;
     }
+
     .banner-content {
         margin: 0;
 
     }
-    .team-container{
-        width:100%;
-        margin:50px auto;
+
+    .team-container {
+        width: 100%;
+        margin: 50px auto;
         flex-direction: column;
     }
-    .team-img-container{
+
+    .team-img-container {
         grid-template-columns: 1fr;
     }
-    
-    .team-content{
-        width:80%;
-        margin:auto;
+
+    .team-content {
+        width: 80%;
+        margin: auto;
     }
 }
 
@@ -173,12 +201,8 @@ main {
 
     .nav-container,
     .banner-title {
-
         padding: 50px 60px;
-
     }
-
-    nav ul {}
 
     .banner-container {
         width: 100%;
@@ -189,4 +213,9 @@ main {
         margin: 50px 0;
 
     }
+
+    .team-container {
+        flex-direction: column;
+    }
+
 }
