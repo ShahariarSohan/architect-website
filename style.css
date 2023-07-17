@@ -47,6 +47,7 @@ header {
 
 nav ul {
     display: flex;
+    
 }
 
 ul li {
@@ -77,10 +78,35 @@ li a {
 }
 .banner-logo-container{
     width:75%;
-    margin:auto;
-   
+    margin: 40px auto;
 }
 .banner-logo{
   width:100%;
   border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        padding: 30px;
+        flex-direction: column;
+    }
+    .banner-container{
+        width:100%;
+        margin:0;
+    }
+    .banner-content{
+        margin:0;
+    }
 }
